@@ -1,0 +1,17 @@
+Source: rclone
+Section: admin
+Priority: optional
+Maintainer: Vladimir Vinogradenko <vladimirv@ixsystems.com>
+Build-Depends: debhelper-compat (= 12), wget
+Standards-Version: 4.4.0
+Homepage: https://min.io
+
+Package: rclone
+Architecture: amd64
+Depends: python3
+Description: Rclone syncs your files to cloud storage
+ Rclone is a command line program to manage files on cloud storage.
+ It is a feature rich alternative to cloud vendors' web storage
+ interfaces. Over 40 cloud storage products support rclone
+ including S3 object stores, business & consumer file storage
+ services, as well as standard transfer protocols.

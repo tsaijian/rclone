@@ -1,0 +1,5 @@
+rclone (1.52.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1)
+
+ -- Vladimir Vinogradenko <vladimirv@ixsystems.com>  Tue,  13 Oct 2020 22:10:00 +0200
