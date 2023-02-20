@@ -2,7 +2,7 @@ Source: rclone
 Section: admin
 Priority: optional
 Maintainer: Vladimir Vinogradenko <vladimirv@ixsystems.com>
-Build-Depends: debhelper-compat (= 12), wget
+Build-Depends: debhelper-compat (= 12), golang
 Standards-Version: 4.4.0
 Homepage: https://min.io
 
