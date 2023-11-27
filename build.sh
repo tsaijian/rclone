@@ -4,6 +4,7 @@ git clone https://github.com/rclone/rclone.git
 (
     cd rclone &&
     git checkout $VERSION &&
+    go env -w GOPROXY=https://goproxy.cn,direct &&
     make GOTAGS=netcgo
 )
 mv rclone rclone.src

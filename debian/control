@@ -7,7 +7,7 @@ Standards-Version: 4.4.0
 Homepage: https://min.io
 
 Package: rclone
-Architecture: amd64
+Architecture: arm64
 Depends: python3
 Description: Rclone syncs your files to cloud storage
  Rclone is a command line program to manage files on cloud storage.
